@@ -1,0 +1,25 @@
+<script type="text/javascript">
+
+function calculadora(num1,num2,oper){
+	var resultado = "Calculadora <br><br>";
+
+
+	if(oper === "+"){
+		resultado += num1+" + "+num2+" = "+ (num1 + num2);
+		document.write(resultado);
+	}else if(oper === "-"){
+		resultado += num1+" - "+num2+" = "+ (num1 - num2);
+		document.write(resultado);
+	}else if(oper === "*"){
+		resultado += num1+" * "+num2+" = "+ (num1 * num2);
+		document.write(resultado);
+	}else if(oper === "/"){
+		resultado += num1+" / "+num2+" = "+ (num1 / num2);
+		document.write(resultado);
+	}
+}
+
+calculadora(37563,4,"*");
+
+
+</script>
