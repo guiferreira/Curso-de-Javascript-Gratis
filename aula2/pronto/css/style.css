@@ -1,0 +1,25 @@
+.caixa_painel {
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.caixa_painel_pequeno {
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.caixa_painel_pequeno:hover{
+	background-color: #ECEAEF;
+}
+.borda_azul {
+    border-left-color: #1b809e;
+}
+
+.borda_cinza {
+    border-left-color: #A6A7A7;
+}
